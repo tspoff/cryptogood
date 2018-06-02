@@ -1,9 +1,4 @@
-// Original Contract
-// const CONTRACT_ADDRESS = "n1yTvx3MQhigguqinfQDXL3mbiCdcPRETtt";
-
-//TEST
-// const CONTRACT_ADDRESS = "n1wtokAwB4GobmdhV8ciE9met3jDRWMPByL";
-const CONTRACT_ADDRESS = "n1tU9co3YHBbGq3VqQubwQ8PviVBEYs9nwF";
+const CONTRACT_ADDRESS = "n1rFJ6ro5GGotHgyiCBhRh2LMkkj1bgohR1";
 
 class SmartContractApi {
     constructor(contractAdress) {
