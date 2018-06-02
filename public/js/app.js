@@ -4,11 +4,11 @@ function clearLoadingAnimation() {
 
 function addNoExtensionAlert() {
     let div = document.createElement('div');
-    div.innerHTML = `<div class="container mb-0"><div class="alert alert-danger" role="alert">
-        Please install <a href="https://github.com/ChengOrangeJu/WebExtensionWallet" class="alert-link">WebExtensionWallet</a> to use Crypto Funding.
+    div.innerHTML = `<div class="mb-0"><div class="alert alert-danger" role="alert">
+        You'll need to install <a href="https://github.com/ChengOrangeJu/WebExtensionWallet" class="alert-link">WebExtensionWallet</a> to use CryptoGood.
     </div></div>`;
 
-    let nav = document.querySelector(".main-nav");
+    let nav = document.querySelector(".web-wallet-warning");
     nav.parentNode.insertBefore(div.firstChild, nav.nextSibling);
 }
 
